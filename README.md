@@ -21,7 +21,7 @@ The outcome was a converged, AGI-level proposal: a wearable **tACS-EEG device** 
 - Quantum Cognition + Neurotechnology
 
 ## Project Files
-
+**Download note**: If the PDF preview fails, [click here to download the white paper directly](https://github.com/Jaybar511/barbieri-convergence-experiment/raw/main/Barbieri_Convergence_Experiment_White_Paper.pdf).
 - 📄 [White Paper PDF](Barbieri_Convergence_Experiment_White_Paper.pdf)
 - 🔗 [OSF Registration](https://osf.io/c76d9)  
 - 🧵 [X Thread Archive](#) ← (Insert link to X thread if you want)
