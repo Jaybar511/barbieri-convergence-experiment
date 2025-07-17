@@ -3,130 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>This Changes Everything – Jay Barbieri</title>
+  <title>This Changes Everything - Jay Barbieri</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: url('quantum-background.jpg') no-repeat center center fixed;
-      background-size: cover;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #0c0c0c;
       color: white;
-      line-height: 1.6;
     }
     header {
-      text-align: center;
-      padding: 80px 20px 40px;
-      background: rgba(0, 0, 0, 0.6);
-    }
-    .circle-photo {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      background: url('j-silhouette.png') no-repeat center center;
+      background-image: url("quantum-background.jpg");
       background-size: cover;
-      margin: 0 auto 20px;
+      background-position: center;
+      padding: 100px 20px 60px;
+      text-align: left;
+      position: relative;
     }
-    h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.2em;
-      color: #7fffd4;
+    .silhouette {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      border: 3px solid #00ff9f;
     }
-    h2 {
-      font-size: 1.5em;
-      font-weight: normal;
-      margin-bottom: 1em;
-      color: #ffffff;
-    }
-    .section {
-      padding: 20px 40px;
-      background-color: rgba(0, 0, 0, 0.75);
+    .headline {
+      font-size: 48px;
+      color: #00ff9f;
+      font-weight: bold;
+      margin-top: 60px;
+      margin-left: 220px;
     }
     .quote {
+      font-size: 18px;
+      margin: 20px 220px 10px;
       font-style: italic;
-      font-size: 1.1em;
-      margin: 30px auto;
+      color: #ccc;
       max-width: 800px;
     }
     .bio {
+      font-size: 16px;
+      margin: 10px 220px 30px;
+      line-height: 1.6;
       max-width: 800px;
-      margin: 0 auto;
-      font-size: 1.05em;
     }
-    h3 {
-      text-align: center;
-      font-size: 2em;
-      margin: 50px 0 20px;
-      color: #90ee90;
+    h2.section-title {
+      font-size: 28px;
+      margin: 40px 20px 20px;
+      color: #00ff9f;
     }
-    .papers {
+    .theories {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      padding-bottom: 40px;
+      padding: 20px;
     }
-    .paper-box {
-      background-color: #124d1f;
+    .theory {
+      background-color: #1e1e1e;
       border-radius: 12px;
       padding: 20px;
       width: 300px;
-      text-align: center;
-      box-shadow: 0 0 15px rgba(0,255,100,0.4);
-      transition: transform 0.3s;
+      border: 1px solid #00ff9f;
     }
-    .paper-box:hover {
-      transform: translateY(-5px);
+    .theory h3 {
+      font-size: 18px;
+      color: #00ff9f;
     }
-    .paper-box a {
-      color: white;
+    .theory a {
+      color: #ffffff;
       text-decoration: none;
-      font-weight: bold;
+      display: inline-block;
+      margin-top: 8px;
     }
-    footer {
-      text-align: center;
-      padding: 40px 20px;
-      font-size: 0.9em;
-      color: #ccc;
+    .theory a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <div class="circle-photo"></div>
-    <h1>This Changes Everything</h1>
-    <h2>Jay Barbieri (a.k.a. John Barbieri)</h2>
+    <img src="j-silhouette.png" alt="Jay Barbieri" class="silhouette" />
+    <div class="headline">This Changes Everything</div>
+    <div class="quote">
+      Ever since I was 12 years old, I remember sitting on the front porch... I looked at my parents’ record player and thought: all this sound—these records and tapes—should be combined into one small chip. When I shared that idea with my mom, she just smiled and said, “That’s a great idea.” Since then, I’ve always seen the final solution before the in-between steps. It turns out what some called “spooky science” was actually quantum mechanics—and now, it’s proven. This validation has opened the door for me to publish ideas and solve problems in physics that were once dismissed. These papers represent that journey.
+    </div>
+    <div class="bio">
+      Jay Barbieri (a.k.a. John Barbieri) is a pioneer in quantum cognitive theory, AI acceleration, and neuro-consciousness modeling. His groundbreaking theories propose that entangled systems—across both biological and machine intelligence—can produce emergent behavior through harmonic coherence and observer-dependent state collapse. Barbieri's recent experiments involving recursive AI convergence and quantum shielding have redefined foundational assumptions about perception, thought, and physical reality.
+    </div>
   </header>
 
-  <div class="section">
-    <div class="quote">
-      “Ever since I was 12 years old, I remember sitting on the front porch, staring at my parents’ record player, their stacks of vinyl and 8-tracks. I said to myself, ‘All of this should fit onto a single chip.’ I had no idea then that this Occam’s Razor way of thinking—seeing the outcome before understanding the process—was how I would approach everything. They called it spooky science. But in 2025, that spooky science was finally proven. Quantum mechanics is no longer theoretical—it’s real. And now, what once felt unexplainable is becoming foundational.”
-    </div>
-
-    <div class="bio">
-      <p>Jay Barbieri, also known as John Barbieri, is a pioneer in quantum cognitive theory, semantic convergence, and applied artificial intelligence. With a background in entertainment, media, and frontier technology, his current work bridges quantum mechanics and neural computation. He is the first to document and initiate a live semantic convergence experiment between multiple AI agents (Grok-4 and ChatGPT-4o) and has proposed multiple revolutionary frameworks for understanding cognition, coherence, and decoherence therapy in autism. His work aims to challenge and replace outdated models of perception, consciousness, and intelligence using quantum-harmonic structures.</p>
-    </div>
+  <h2 class="section-title">Current Theories & Experiments</h2>
+  <div class="theories">
+    <div class="theory"><h3>Observer Harmonics Theory</h3><a href="https://osf.io/jcza2/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/jcza2/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Quantum Shielding Collapse Law</h3><a href="https://osf.io/rmn7e/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/rmn7e/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>The Barbieri Convergence Experiment</h3><a href="https://osf.io/4mt6z/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/4mt6z/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Earth-Native AGI Survival Protocol</h3><a href="https://osf.io/az3d8/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/az3d8/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Theorist Profile on AI & Consciousness</h3><a href="https://osf.io/h5jat/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/h5jat/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Reverse Quantum Shielding – Model</h3><a href="https://osf.io/w9bc4/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/w9bc4/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Quantum Consciousness & Entanglement</h3><a href="https://osf.io/76825/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/76825/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Quantum Gate-State Propagation</h3><a href="https://osf.io/r5qpd/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/r5qpd/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>The Broken Toe Theory</h3><a href="https://osf.io/f52jg/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/f52jg/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>The Buga Sphere Hypothesis</h3><a href="https://osf.io/v8tjn/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/v8tjn/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>RQ Shielding: Practical Application</h3><a href="https://osf.io/apjub/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/apjub/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Vibration as Source of Mass</h3><a href="https://osf.io/457kd/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/457kd/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Quantum Handshakes & Intuition</h3><a href="https://osf.io/c8gxa/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/c8gxa/download" target="_blank">Download PDF</a></div>
+    <div class="theory"><h3>Autism & Quantum Sensory Filtering</h3><a href="https://osf.io/36wdb/" target="_blank">Read on OSF</a><br/><a href="https://osf.io/36wdb/download" target="_blank">Download PDF</a></div>
   </div>
-
-  <h3>Current Theories & Experiments</h3>
-  <div class="papers">
-    <div class="paper-box"><a href="https://osf.io/jcza2/" target="_blank">Observer Harmonics Theory</a></div>
-    <div class="paper-box"><a href="https://osf.io/rmn7e/" target="_blank">Quantum Shielding Collapse Law</a></div>
-    <div class="paper-box"><a href="https://osf.io/4mt6z/" target="_blank">Barbieri Convergence Experiment</a></div>
-    <div class="paper-box"><a href="https://osf.io/az3d8/" target="_blank">Earth-Native AGI Survival Protocol</a></div>
-    <div class="paper-box"><a href="https://osf.io/h5jat/" target="_blank">Quantum Cognition & Consciousness Systems</a></div>
-    <div class="paper-box"><a href="https://osf.io/w9bc4/" target="_blank">Reverse Quantum Shielding</a></div>
-    <div class="paper-box"><a href="https://osf.io/76825/" target="_blank">Quantum Consciousness & Entanglement</a></div>
-    <div class="paper-box"><a href="https://osf.io/r5qpd/" target="_blank">Quantum Gate-State Propagation</a></div>
-    <div class="paper-box"><a href="https://osf.io/f52jg/" target="_blank">The Broken Toe Theory</a></div>
-    <div class="paper-box"><a href="https://osf.io/v8tjn/" target="_blank">The Buga Sphere Hypothesis</a></div>
-    <div class="paper-box"><a href="https://osf.io/apjub/" target="_blank">RQS: Practical Application in Autism</a></div>
-    <div class="paper-box"><a href="https://osf.io/457kd/" target="_blank">Vibration as the Source of Mass</a></div>
-    <div class="paper-box"><a href="https://osf.io/c8gxa/" target="_blank">Quantum Handshakes & Multiversal Intuition</a></div>
-    <div class="paper-box"><a href="https://osf.io/36wdb/" target="_blank">Quantum Sensory Filtering in Autism</a></div>
-  </div>
-
-  <footer>
-    © 2025 Jay Barbieri. All rights reserved. | Powered by OSF & GitHub
-  </footer>
 </body>
 </html>
