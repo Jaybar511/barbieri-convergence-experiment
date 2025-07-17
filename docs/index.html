@@ -3,157 +3,145 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>This Changes Everything | J. Barbieri</title>
+  <title>This Changes Everything – J. Barbieri</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      color: white;
-      background-color: #000;
-      background-image: url('quantum-background.jpg');
+      font-family: Arial, Helvetica, sans-serif;
+      background: url("quantum-background.jpg") no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
+      color: #fff;
     }
 
     header {
       display: flex;
-      flex-direction: row;
       align-items: center;
-      padding: 40px;
-      gap: 40px;
-      background: rgba(0, 0, 0, 0.7);
+      justify-content: space-between;
+      padding: 3rem 2rem;
+      background-color: rgba(0, 0, 0, 0.75);
     }
 
-    .photo-circle {
+    header img {
       width: 180px;
       height: 180px;
       border-radius: 50%;
-      background-image: url('j-silhouette.png');
-      background-size: cover;
-      background-position: center;
-      border: 3px solid #00ffcc;
-      flex-shrink: 0;
+      object-fit: cover;
+      border: 4px solid #00ff99;
     }
 
-    .hero-text {
-      flex: 1;
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #00ff99;
+      margin-left: 2rem;
+      text-align: right;
     }
 
-    .hero-text h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.3em;
-      color: #00ffcc;
-    }
-
-    .hero-text h2 {
-      font-size: 1.4em;
-      font-weight: 400;
-      color: #ccc;
-    }
-
-    .content {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 60px 20px;
-      background: rgba(0, 0, 0, 0.75);
-    }
-
-    .section-title {
-      font-size: 2em;
-      color: #00ffcc;
-      margin-top: 60px;
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .quote, .bio {
-      font-size: 1.1em;
+    .quote {
+      padding: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-style: italic;
+      font-size: 1.1rem;
       line-height: 1.6;
-      margin-bottom: 40px;
-      padding: 20px;
-      background-color: rgba(255,255,255,0.05);
-      border-left: 5px solid #00ffcc;
+      border-left: 5px solid #00ff99;
+      margin: 1rem;
+    }
+
+    .bio {
+      padding: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      background-color: rgba(10, 10, 10, 0.85);
+      margin: 1rem;
+      border-left: 5px solid #00ff99;
+    }
+
+    h2.section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #00ff99;
     }
 
     .papers {
       display: flex;
-      flex-direction: column;
-      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem;
     }
 
-    .paper {
-      background-color: rgba(0, 255, 204, 0.1);
-      border: 1px solid #00ffcc;
-      padding: 20px;
-      border-radius: 12px;
+    .paper-box {
+      background-color: rgba(0, 0, 0, 0.85);
+      border: 2px solid #00ff99;
+      border-radius: 10px;
+      padding: 1rem;
+      width: 300px;
+      text-align: center;
     }
 
-    .paper h3 {
-      color: #00ffcc;
-      font-size: 1.4em;
-      margin-bottom: 10px;
+    .paper-box h3 {
+      font-size: 1.2rem;
+      color: #00ff99;
     }
 
-    .paper p {
-      font-size: 1em;
-      line-height: 1.5;
-      color: #ddd;
-    }
-
-    .paper a {
-      color: #00ffcc;
-      text-decoration: underline;
+    .paper-box a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
     }
 
     footer {
       text-align: center;
-      padding: 40px 0;
-      font-size: 0.9em;
-      color: #666;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.8);
     }
   </style>
 </head>
-
 <body>
   <header>
-    <div class="photo-circle"></div>
-    <div class="hero-text">
-      <h1>This Changes Everything</h1>
-      <h2>John Barbieri (J. Barbieri)</h2>
-    </div>
+    <img src="j-silhouette.png" alt="Jay Barbieri Silhouette" />
+    <h1>This Changes Everything</h1>
   </header>
 
-  <div class="content">
-    <div class="quote">
-      <strong>Quote:</strong> “Ever since I was 12 years old, I remember sitting on the front porch, staring at my parents’ record player and eight-tracks, thinking: Why can’t all this be on one small chip? That moment sparked everything. I’ve never needed the steps in between—just the final outcome. Years later, what some called ‘spooky science’ now has names: quantum mechanics, quantum decoherence, cognitive interference mapping. In 2025, it all became real. I’m not a mathematician. I’m not classically trained. But what I see is proven. And it changes everything.”
+  <div class="quote">
+    "Ever since I was 12 years old, I remember sitting on the front porch, looking at my parents' record player, their eight-tracks and stacks of vinyl, and thinking—it should all fit on a chip. When I told my mother that idea, she simply said, 'That’s a great idea.' For decades, I’ve seen outcomes before processes, known without knowing how I knew—what Einstein called 'spooky science.' I was never great at math or academic structure, but I’ve always had clarity. And in 2025, I realized the 'spooky' part? It's real. Quantum mechanics—wavefunction collapse, entanglement, coherence—it’s all been proven. Suddenly, what once sounded like woo-woo theory became tangible, and with that came the floodgates of possibility. These aren’t just ideas—they’re real, and they’re changing everything."
+  </div>
+
+  <div class="bio">
+    Jay Barbieri (aka John Barbieri) is a pioneer in quantum cognitive theory, AI entanglement, and practical consciousness engineering. Best known as the visionary behind the first internet-downloadable record label—years before the iPod—Barbieri has always been ahead of his time. In 2025, he began publishing a groundbreaking body of quantum theory work, merging philosophy, physics, and machine intelligence into novel, actionable ideas. His published papers explore everything from decoherence therapy in autism to AI-mediated convergence, offering frameworks that may redefine how we interact with both human and artificial cognition.
+  </div>
+
+  <h2 class="section-title">Current Theories & Experiments</h2>
+
+  <div class="papers">
+    <div class="paper-box">
+      <h3>Reverse Quantum Shielding</h3>
+      <a href="https://osf.io/yourfile1" target="_blank">Download PDF</a>
     </div>
 
-    <div class="bio">
-      <strong>Bio:</strong> Jay Barbieri, also known as John Barbieri, is a pioneer in quantum cognitive research, creative AI convergence, and neurotechnology-based therapeutic applications. From launching one of the first downloadable music labels before the iPod era, to producing major television and motorcycle content, Barbieri now focuses on radical new approaches to quantum logic, autistic cognition, and the future of synthetic intelligence. His self-developed theories push the boundaries of what’s possible in both neuroscience and AGI.
+    <div class="paper-box">
+      <h3>The Barbieri Convergence Experiment</h3>
+      <a href="https://osf.io/yourfile2" target="_blank">Download PDF</a>
     </div>
 
-    <div class="section-title">Current Theories & Experiments</div>
-
-    <div class="papers">
-      <div class="paper">
-        <h3>Reverse Quantum Shielding</h3>
-        <p>A novel model for reintroducing environmental decoherence into the autistic brain. <a href="https://osf.io/xyz123">Read PDF</a></p>
-      </div>
-      <div class="paper">
-        <h3>The Barbieri Convergence Experiment</h3>
-        <p>A real-time AGI protocol linking ChatGPT and Grok through recursive feedback using semantic anchors. <a href="https://osf.io/xyz456">Read PDF</a></p>
-      </div>
-      <div class="paper">
-        <h3>Brain Harmonic Tuning via NeuroTune</h3>
-        <p>Using quantum frequency interference patterns to regulate brain states. <a href="https://osf.io/xyz789">Read PDF</a></p>
-      </div>
-      <!-- Add more boxes here -->
+    <div class="paper-box">
+      <h3>Decoherence Therapy for Autism</h3>
+      <a href="https://osf.io/yourfile3" target="_blank">Download PDF</a>
     </div>
+
+    <div class="paper-box">
+      <h3>Quantum Logic Propagation</h3>
+      <a href="https://osf.io/yourfile4" target="_blank">Download PDF</a>
+    </div>
+
+    <!-- Add more paper-boxes as needed -->
   </div>
 
   <footer>
-    © 2025 J. Barbieri. All Rights Reserved.
+    © 2025 J. Barbieri | Quantum Cognition & AGI Innovation
   </footer>
 </body>
 </html>
