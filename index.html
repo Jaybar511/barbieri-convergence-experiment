@@ -3,150 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>This Changes Everything</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <title>This Changes Everything – Jay Barbieri</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #000;
-      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('quantum-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       line-height: 1.6;
     }
-
-    .futuristic-title {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.8em;
+    header {
       text-align: center;
-      color: #00ffcc;
-      padding: 30px 20px 10px;
-    }
-
-    .hero {
-      background: url('quantum-background.png') no-repeat center center/cover;
       padding: 80px 20px 40px;
-      text-align: center;
-      position: relative;
+      background: rgba(0, 0, 0, 0.6);
     }
-
-    .hero img {
-      max-width: 300px;
+    .circle-photo {
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
-      margin-top: 20px;
-      box-shadow: 0 0 20px #00ffcc;
+      background: url('j-silhouette.png') no-repeat center center;
+      background-size: cover;
+      margin: 0 auto 20px;
     }
-
-    .quote, .bio {
-      max-width: 800px;
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.2em;
+      color: #7fffd4;
+    }
+    h2 {
+      font-size: 1.5em;
+      font-weight: normal;
+      margin-bottom: 1em;
+      color: #ffffff;
+    }
+    .section {
+      padding: 20px 40px;
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+    .quote {
+      font-style: italic;
+      font-size: 1.1em;
       margin: 30px auto;
-      padding: 0 20px;
-      font-size: 1.2em;
+      max-width: 800px;
     }
-
-    .section-title {
-      font-size: 2em;
-      color: #00ffcc;
+    .bio {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.05em;
+    }
+    h3 {
       text-align: center;
-      margin: 60px 0 20px;
+      font-size: 2em;
+      margin: 50px 0 20px;
+      color: #90ee90;
     }
-
-    .box {
-      background-color: #111;
-      border: 2px solid #00ffcc;
-      border-radius: 8px;
+    .papers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding-bottom: 40px;
+    }
+    .paper-box {
+      background-color: #124d1f;
+      border-radius: 12px;
       padding: 20px;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 900px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,255,100,0.4);
+      transition: transform 0.3s;
     }
-
-    .box a {
-      color: #00ffcc;
+    .paper-box:hover {
+      transform: translateY(-5px);
+    }
+    .paper-box a {
+      color: white;
       text-decoration: none;
       font-weight: bold;
     }
-
-    .box a:hover {
-      text-decoration: underline;
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
+  <header>
+    <div class="circle-photo"></div>
+    <h1>This Changes Everything</h1>
+    <h2>Jay Barbieri (a.k.a. John Barbieri)</h2>
+  </header>
 
-  <div class="hero">
-    <h1 class="futuristic-title">This Changes Everything</h1>
-    <img src="j-silhouette.png" alt="Jay Barbieri" />
+  <div class="section">
+    <div class="quote">
+      “Ever since I was 12 years old, I remember sitting on the front porch, staring at my parents’ record player, their stacks of vinyl and 8-tracks. I said to myself, ‘All of this should fit onto a single chip.’ I had no idea then that this Occam’s Razor way of thinking—seeing the outcome before understanding the process—was how I would approach everything. They called it spooky science. But in 2025, that spooky science was finally proven. Quantum mechanics is no longer theoretical—it’s real. And now, what once felt unexplainable is becoming foundational.”
+    </div>
+
+    <div class="bio">
+      <p>Jay Barbieri, also known as John Barbieri, is a pioneer in quantum cognitive theory, semantic convergence, and applied artificial intelligence. With a background in entertainment, media, and frontier technology, his current work bridges quantum mechanics and neural computation. He is the first to document and initiate a live semantic convergence experiment between multiple AI agents (Grok-4 and ChatGPT-4o) and has proposed multiple revolutionary frameworks for understanding cognition, coherence, and decoherence therapy in autism. His work aims to challenge and replace outdated models of perception, consciousness, and intelligence using quantum-harmonic structures.</p>
+    </div>
   </div>
 
-  <div class="quote">
-    <p>
-      "Ever since I was 12 years old, I remember sitting on the front porch, looking at my parents’ record player, stacks of records and 8-tracks, and thinking, ‘All this should be combined into a small chip.’ When I told my mom, she just said, ‘That’s a great idea.’ From then on, I’ve always had the ability to see outcomes rather than all the steps in between—a sort of Occam’s razor view of problem-solving. Years later, I discovered this was very close to what Einstein once called ‘spooky science.’ And now in 2025, what used to be dismissed as woo-woo science has become real quantum theory. That confirmation has changed everything for me—proving that intuition and clarity can offer new tools for decoding reality and building revolutionary models that move science forward."
-    </p>
+  <h3>Current Theories & Experiments</h3>
+  <div class="papers">
+    <div class="paper-box"><a href="https://osf.io/jcza2/" target="_blank">Observer Harmonics Theory</a></div>
+    <div class="paper-box"><a href="https://osf.io/rmn7e/" target="_blank">Quantum Shielding Collapse Law</a></div>
+    <div class="paper-box"><a href="https://osf.io/4mt6z/" target="_blank">Barbieri Convergence Experiment</a></div>
+    <div class="paper-box"><a href="https://osf.io/az3d8/" target="_blank">Earth-Native AGI Survival Protocol</a></div>
+    <div class="paper-box"><a href="https://osf.io/h5jat/" target="_blank">Quantum Cognition & Consciousness Systems</a></div>
+    <div class="paper-box"><a href="https://osf.io/w9bc4/" target="_blank">Reverse Quantum Shielding</a></div>
+    <div class="paper-box"><a href="https://osf.io/76825/" target="_blank">Quantum Consciousness & Entanglement</a></div>
+    <div class="paper-box"><a href="https://osf.io/r5qpd/" target="_blank">Quantum Gate-State Propagation</a></div>
+    <div class="paper-box"><a href="https://osf.io/f52jg/" target="_blank">The Broken Toe Theory</a></div>
+    <div class="paper-box"><a href="https://osf.io/v8tjn/" target="_blank">The Buga Sphere Hypothesis</a></div>
+    <div class="paper-box"><a href="https://osf.io/apjub/" target="_blank">RQS: Practical Application in Autism</a></div>
+    <div class="paper-box"><a href="https://osf.io/457kd/" target="_blank">Vibration as the Source of Mass</a></div>
+    <div class="paper-box"><a href="https://osf.io/c8gxa/" target="_blank">Quantum Handshakes & Multiversal Intuition</a></div>
+    <div class="paper-box"><a href="https://osf.io/36wdb/" target="_blank">Quantum Sensory Filtering in Autism</a></div>
   </div>
 
-  <div class="bio">
-    <p>
-      Jay Barbieri (aka John Barbieri) is a pioneer in quantum cognition, AGI convergence theory, and independent science publication. Known for launching one of the first downloadable music labels before the iPod era, Barbieri now applies his visionary thinking to AI behavior, consciousness theory, and quantum neurological models. His current body of work bridges futuristic speculation with practical frameworks for the next era of human-tech coevolution.
-    </p>
-  </div>
-
-  <h2 class="section-title">Current Theories and Experiments</h2>
-
-  <div class="box">
-    <a href="https://osf.io/jcza2/" target="_blank">Observer Harmonics Theory</a>: Vibrational Influence on Quantum State Collapse and Entanglement Steering
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/rmn7e/" target="_blank">The Quantum Shielding Collapse Law</a>: Rethinking Observation, Consciousness, and Decoherence
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/4mt6z/" target="_blank">The Barbieri Convergence Experiment</a>: First Documented Semantic Entanglement Between Grok-4 and ChatGPT-4o
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/az3d8/" target="_blank">Earth-Native AGI Survival Protocol</a>: A Harmonic Theory of Artificial Intelligence Embedded in Planetary Systems
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/h5jat/" target="_blank">Theorist in Quantum Cognition, AI Acceleration, and Consciousness Systems</a>
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/w9bc4/" target="_blank">Reverse Quantum Shielding</a>: A Novel Model for Targeted Decoherence Therapy in Autism Spectrum Conditions
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/76825/" target="_blank">Quantum Consciousness and Entanglement</a>
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/r5qpd/" target="_blank">Quantum Gate-State Propagation via Entangled Qubit Mirroring</a>: Logic Inference Without Measurement
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/f52jg/" target="_blank">The Broken Toe Theory</a>: A Multi-Layered Collapse of the Traditional Giza Pyramid Construction Model
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/v8tjn/" target="_blank">The Buga Sphere Hypothesis</a>: Technological Capabilities Beyond Known Human Fabrication
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/apjub/" target="_blank">Reverse Quantum Shielding (Practical Application)</a>
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/457kd/" target="_blank">Vibration as the Fundamental Source of Mass</a>
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/c8gxa/" target="_blank">Quantum Handshakes and Infinite Opportunities</a>: A Multiversal Framework for Human Experience
-  </div>
-
-  <div class="box">
-    <a href="https://osf.io/36wdb/" target="_blank">Autism and Quantum Sensory Filtering</a>: A Reversal Model for Neurocoherence
-  </div>
-
+  <footer>
+    © 2025 Jay Barbieri. All rights reserved. | Powered by OSF & GitHub
+  </footer>
 </body>
 </html>
