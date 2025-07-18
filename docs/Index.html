@@ -33,11 +33,19 @@
     .top-row {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 20px;
       padding: 40px;
       background-color: #f0f0f0;
       border-top: 6px solid #ff5500;
       border-bottom: 1px solid #ddd;
+    }
+    .email {
+      font-size: 14px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #333;
     }
     .bio, .quote {
       width: 45%;
@@ -106,6 +114,7 @@
 
 <div class="top-row">
   <div class="bio">
+    <div class="email">Contact: <a href="mailto:jay25636@gmail.com">jay25636@gmail.com</a></div>
     John Barbieri is a cross-disciplinary thinker navigating the boundaries of quantum theory, information logic, and the human experience.
   </div>
   <div class="quote">
