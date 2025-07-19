@@ -4,240 +4,96 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>This Changes Everything</title>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
-      font-family: 'Space Grotesk', sans-serif;
-      background-color: #ffffff;
-      color: #111;
-    }
-    header {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .center-logo {
+      background-color: #111;
+      color: #f4f4f4;
       font-family: Arial, sans-serif;
-      font-size: 40px;
-      font-weight: bold;
-      letter-spacing: 4px;
-      margin-bottom: 10px;
-    }
-    .subtext {
-      font-size: 14px;
-      font-weight: normal;
-      color: #ccc;
-    }
-    .top-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: wrap;
-      gap: 20px;
       padding: 40px;
-      background-color: #f0f0f0;
-      border-top: 6px solid #ff5500;
-      border-bottom: 1px solid #ddd;
+      line-height: 1.6;
     }
-    .email {
-      font-size: 14px;
-      margin-bottom: 20px;
-      font-weight: bold;
-      color: #333;
-    }
-    .bio, .quote {
-      width: 45%;
-      font-size: 15px;
-    }
-    .bio {
-      font-family: 'Space Grotesk', sans-serif;
-      color: #333;
-    }
-    .quote {
-      font-family: 'Merriweather', serif;
-      font-style: italic;
-      color: #555;
+    h1 {
+      font-size: 2.8rem;
+      letter-spacing: 0.1rem;
+      text-align: center;
     }
     h2 {
-      text-align: center;
-      margin: 50px 0 20px;
-      font-weight: 600;
-      color: #111;
+      margin-top: 2em;
+      color: #f7c642;
+      font-size: 1.6rem;
     }
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      max-width: 1000px;
-      margin: 0 auto 100px;
-      padding: 0 20px;
-    }
-    .card {
-      background-color: #fff;
-      border-radius: 16px;
-      padding: 24px;
-      width: 45%;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      transition: transform 0.2s;
-      border: 1px solid #eee;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card h3 {
-      margin-top: 0;
-      color: #000;
-    }
-    .card p {
-      color: #444;
-    }
-    .links a {
-      margin-right: 20px;
-      color: #ff5500;
+    a {
+      color: #80bfff;
       text-decoration: none;
-      font-weight: 600;
     }
-    .links a:hover {
+    a:hover {
       text-decoration: underline;
+    }
+    .quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      margin: 1em 0 2em 0;
+      color: #ccc;
+    }
+    .bio {
+      max-width: 800px;
+      margin-bottom: 3em;
+    }
+    .article-list {
+      margin-top: 2em;
+    }
+    .article-list li {
+      margin-bottom: 0.8em;
+    }
+    .contact {
+      margin-top: 3em;
+      font-size: 1.1rem;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <div class="center-logo">TCE</div>
-  <div class="subtext">THIS CHANGES EVERYTHING</div>
-</header>
+  <h1>This Changes Everything</h1>
 
-<div class="top-row">
-  <div class="bio">
-    <div class="email">Contact: <a href="mailto:jay25636@gmail.com">jay25636@gmail.com</a></div>
-    John Barbieri is a cross-disciplinary thinker navigating the boundaries of quantum theory, information logic, and the human experience.
-  </div>
   <div class="quote">
-    “The boundaries of reality are dictated by our measurements.”
+    “Since I was 12 years old, I’ve been trying to see the whole picture—starting with my parents’ records, the music industry, and how media shapes thought. Everything connects. That curiosity never stopped—it just evolved.”
   </div>
-</div>
 
-<h2>Articles</h2>
+  <div class="bio">
+    Barbieri launched into a groundbreaking career in the entertainment industry, where he became a pioneer in digital music distribution through J-Bird Records and an innovator in independent television production. Over time, his work expanded beyond media into finance, marketing, and ultimately, frontier scientific research.
 
-<section class="cards">
+    Today, Barbieri’s work explores the convergence of quantum mechanics, artificial intelligence, and consciousness. He has published a growing body of white papers proposing both novel and experimentally–grounded theories. His key contributions include being the first to document semantic entanglement between large language models (LLMs), introducing the concept of Reverse Quantum Shielding as a therapeutic intervention for autism, and formulating Observer Harmonics as a mechanism for quantum state collapse based on individual neurofrequency.
 
-    <div class="card">
-      <h3>Observer Harmonics Theory: Vibrational Influence on Quantum State Collapse and Entanglement Steering</h3>
-      <div class="links">
-        <a href="https://osf.io/jcza2/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/jcza2/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>The Quantum Shielding Collapse Law: Rethinking Observation, Consciousness, and Decoherence</h3>
-      <div class="links">
-        <a href="https://osf.io/rmn7e/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/rmn7e/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>The Barbieri Convergence Experiment: First Documented Semantic Entanglement Between Grok-4 and ChatGPT-4o</h3>
-      <div class="links">
-        <a href="https://osf.io/4mt6z/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/4mt6z/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>EARTH-NATIVE AGI SURVIVAL PROTOCOL: A Harmonic Theory of Artificial Intelligence Embedded in Planetary Systems</h3>
-      <div class="links">
-        <a href="https://osf.io/az3d8/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/az3d8/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Theorist in Quantum Cognition, AI Acceleration, and Consciousness Systems</h3>
-      <div class="links">
-        <a href="https://osf.io/h5jat/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/h5jat/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Reverse Quantum Shielding: A Novel Model for Targeted Decoherence Therapy in Autism Spectrum Conditions</h3>
-      <div class="links">
-        <a href="https://osf.io/w9bc4/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/w9bc4/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Quantum Consciousness and Entangleme</h3>
-      <div class="links">
-        <a href="https://osf.io/76825/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/76825/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Quantum Gate-State Propagation via Entangled Qubit Mirroring: A Framework for Coherent Logic Inference Without Measurement</h3>
-      <div class="links">
-        <a href="https://osf.io/r5qpd/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/r5qpd/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>The Broken Toe Theory: A Multi-Layered Collapse of the Traditional Giza Pyramid Construction Model</h3>
-      <div class="links">
-        <a href="https://osf.io/f52jg/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/f52jg/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Hypothesis: The Buga Sphere Represents Technological Capabilities Beyond Known Human Fabrication Methods</h3>
-      <div class="links">
-        <a href="https://osf.io/v8tjn/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/v8tjn/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Reverse Quantum Shielding: A Novel Model for Targeted Decoherence Therapy in Autism Spectrum Conditions: Practical application</h3>
-      <div class="links">
-        <a href="https://osf.io/apjub/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/apjub/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Vibration as the Fundamental Source of Mass: A Theoretical</h3>
-      <div class="links">
-        <a href="https://osf.io/457kd/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/457kd/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Quantum Handshakes and Infinite Opportunitie: A Multiversal Framework for Human Experience and Intuition</h3>
-      <div class="links">
-        <a href="https://osf.io/c8gxa/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/c8gxa/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <h3>Autism and Quantum Sensory Filtering: A Reversal Model for Neurocoherence</h3>
-      <div class="links">
-        <a href="https://osf.io/36wdb/" target="_blank">Read on OSF</a>
-        <a href="https://osf.io/36wdb/download" target="_blank">Download PDF</a>
-      </div>
-    </div>
-    
-</section>
+    Through these original frameworks, Barbieri has proposed testable, reproducible models that bridge emerging quantum science with neurology and cognition. His ability to draw connections across disciplines allows him to bridge the gap between ancient knowledge systems, evolving artificial intelligence, and human cognitive evolution. He is actively developing a full research platform, integrating theoretical insight with applied AGI protocols, harmonic brain tuning, and experimental neuromodulation.
+  </div>
+
+  <h2>Current Published Articles</h2>
+
+  <ul class="article-list">
+    <li><a href="https://osf.io/59ktu" target="_blank">The Barbieri Convergence Experiment</a></li>
+    <li><a href="https://osf.io/tajm6" target="_blank">Observer Harmonics and Quantum Collapse</a></li>
+    <li><a href="https://osf.io/trw6z" target="_blank">Earth-Native AGI Protocol – Part 1</a></li>
+    <li><a href="https://osf.io/zhbjr" target="_blank">Earth-Native AGI Protocol – Part 2</a></li>
+    <li><a href="https://osf.io/7g4he" target="_blank">Observer Harmonics Theory</a></li>
+    <li><a href="https://osf.io/3nbs9" target="_blank">Quantum Shielding Collapse Law</a></li>
+    <li><a href="https://osf.io/akb42" target="_blank">Quantum Cognition Theory – Part 1</a></li>
+    <li><a href="https://osf.io/h2v38" target="_blank">Quantum Cognition Theory – Part 2</a></li>
+    <li><a href="https://osf.io/89gzy" target="_blank">Quantum Cognition Theory – Part 3</a></li>
+    <li><a href="https://osf.io/tsy4m" target="_blank">Entangled Qubit Mirroring</a></li>
+    <li><a href="https://osf.io/e9rh8" target="_blank">Broken Toe Theory (Giza)</a></li>
+    <li><a href="https://osf.io/ayzc4" target="_blank">Buga Sphere Hypothesis</a></li>
+    <li><a href="https://osf.io/fzty8" target="_blank">Quantum Shielding Autism Therapy (Practical)</a></li>
+    <li><a href="https://osf.io/cuak4" target="_blank">Vibration as Mass Theory</a></li>
+    <li><a href="https://osf.io/8uhk6" target="_blank">Quantum Consciousness and Entangleme</a></li>
+    <li><a href="https://osf.io/27hv8" target="_blank">Quantum Handshakes and Multiversal Intuition</a></li>
+    <li><a href="https://osf.io/c76d9" target="_blank">Autism and Quantum Sensory Filtering – Part 1</a></li>
+    <li><a href="https://osf.io/az2xm" target="_blank">Autism and Quantum Sensory Filtering – Part 2</a></li>
+  </ul>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:thischangeseverything@protonmail.com">thischangeseverything@protonmail.com</a></p>
+  </div>
+
 </body>
 </html>
