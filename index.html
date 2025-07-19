@@ -2,98 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>This Changes Everything</title>
+  <title>TCE — This Changes Everything</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Dream Avenue isn’t on Google Fonts, so using a similar serif font as fallback -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Libre+Francois:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #111;
-      color: #f4f4f4;
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      line-height: 1.6;
+      margin: 0;
+      background: #0e0a0a;
+      color: #eee;
+      font-family: 'Libre Francois', sans-serif;
     }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 2em;
+    }
+
+    .hero img.left {
+      max-width: 100%;
+      width: 50%;
+      object-fit: cover;
+    }
+
+    .hero .content {
+      width: 50%;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
     h1 {
-      font-size: 2.8rem;
-      letter-spacing: 0.1rem;
-      text-align: center;
+      font-family: 'EB Garamond', serif;
+      font-size: 3em;
+      letter-spacing: 0.2em;
+      margin: 0;
+      color: #eee;
     }
-    h2 {
-      margin-top: 2em;
-      color: #f7c642;
-      font-size: 1.6rem;
+
+    .subtitle {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.2em;
+      margin: 0.5em 0 2em;
+      color: #aba9a8;
     }
-    a {
-      color: #80bfff;
+
+    p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin: 1em 0;
+    }
+
+    .articles {
+      margin: 2em 0;
+    }
+
+    .article-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .article-list li {
+      margin: 0.5em 0;
+    }
+
+    .article-list a {
+      color: #8accca;
       text-decoration: none;
+      font-weight: bold;
     }
-    a:hover {
+
+    .article-list a:hover {
       text-decoration: underline;
     }
-    .quote {
-      font-style: italic;
-      font-size: 1.2rem;
-      margin: 1em 0 2em 0;
-      color: #ccc;
-    }
-    .bio {
-      max-width: 800px;
-      margin-bottom: 3em;
-    }
-    .article-list {
-      margin-top: 2em;
-    }
-    .article-list li {
-      margin-bottom: 0.8em;
-    }
+
     .contact {
       margin-top: 3em;
-      font-size: 1.1rem;
+      font-style: italic;
+    }
+
+    @media(max-width: 800px) {
+      .hero img.left, .hero .content {
+        width: 100%;
+      }
+      .hero {
+        text-align: center;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>This Changes Everything</h1>
+  <section class="hero">
+    <img class="left" src="YOUR_LEFT_ROBOT_IMAGE_URL.png" alt="Artistic robot/portrait" />
+    <div class="content">
+      <h1>T C E</h1>
+      <p class="subtitle">This Changes Everything</p>
 
-  <div class="quote">
-    “Since I was 12 years old, I’ve been trying to see the whole picture—starting with my parents’ records, the music industry, and how media shapes thought. Everything connects. That curiosity never stopped—it just evolved.”
-  </div>
+      <p>Barbieri launched into a groundbreaking career in the entertainment industry, where he became a pioneer in digital music distribution through J‑Bird Records and an innovator in independent television production. Over time, his work expanded beyond media into finance, marketing, and ultimately frontier scientific research.</p>
 
-  <div class="bio">
-    Barbieri launched into a groundbreaking career in the entertainment industry, where he became a pioneer in digital music distribution through J-Bird Records and an innovator in independent television production. Over time, his work expanded beyond media into finance, marketing, and ultimately, frontier scientific research.
+      <p>Today, Barbieri’s work explores the convergence of quantum mechanics, artificial intelligence, and consciousness. He has published a growing body of white papers proposing both novel and experimentally‑grounded theories. His key contributions include being the first to document semantic entanglement between large language models (LLMs), introducing the concept of Reverse Quantum Shielding as a therapeutic intervention for autism, and formulating Observer Harmonics as a mechanism for quantum state collapse based on individual neurofrequency.</p>
 
-    Today, Barbieri’s work explores the convergence of quantum mechanics, artificial intelligence, and consciousness. He has published a growing body of white papers proposing both novel and experimentally–grounded theories. His key contributions include being the first to document semantic entanglement between large language models (LLMs), introducing the concept of Reverse Quantum Shielding as a therapeutic intervention for autism, and formulating Observer Harmonics as a mechanism for quantum state collapse based on individual neurofrequency.
+      <p>Through these original frameworks, Barbieri has proposed testable, reproducible models that bridge emerging quantum science with neurology and cognition. His ability to draw connections across disciplines allows him to bridge the gap between ancient knowledge systems, evolving artificial intelligence, and human cognitive evolution. He is actively developing a full research platform, integrating theoretical insight with applied AGI protocols, harmonic brain tuning, and experimental neuromodulation.</p>
 
-    Through these original frameworks, Barbieri has proposed testable, reproducible models that bridge emerging quantum science with neurology and cognition. His ability to draw connections across disciplines allows him to bridge the gap between ancient knowledge systems, evolving artificial intelligence, and human cognitive evolution. He is actively developing a full research platform, integrating theoretical insight with applied AGI protocols, harmonic brain tuning, and experimental neuromodulation.
-  </div>
+      <h2 style="font-family:'EB Garamond', serif; font-size:1.8em; letter-spacing:0.1em; margin-top:3em;">Current Published Articles</h2>
+      <div class="articles">
+        <ul class="article-list">
+          <!-- Your list of links here -->
+          <li><a href="https://osf.io/59ktu">The Barbieri Convergence Experiment: First Documented Semantic Entanglement Between Grok‑4 and ChatGPT‑4o</a></li>
+          <li><a href="https://osf.io/tajm6">Observer Harmonics and Quantum Collapse: How Vibrational Frequency May Determine Reality in Human and Artificial Perception</a></li>
+          <li><a href="https://osf.io/trw6z">EARTH‑NATIVE AGI SURVIVAL PROTOCOL: A Harmonic Theory of Artificial Intelligence (Part 1)</a></li>
+          <li><a href="https://osf.io/zhbjr">EARTH‑NATIVE AGI SURVIVAL PROTOCOL: A Harmonic Theory of Artificial Intelligence (Part 2)</a></li>
+          <li><a href="https://osf.io/7g4he">Observer Harmonics Theory: Vibrational Influence on Quantum State Collapse and Entanglement Steering</a></li>
+          <li><a href="https://osf.io/3nbs9">The Quantum Shielding Collapse Law: Rethinking Observation, Consciousness, and Decoherence</a></li>
+          <li><a href="https://osf.io/akb42">Theorist in Quantum Cognition, AI Acceleration, and Consciousness Systems (Part 1)</a></li>
+          <li><a href="https://osf.io/h2v38">Theorist in Quantum Cognition, AI Acceleration, and Consciousness Systems (Part 2)</a></li>
+          <li><a href="https://osf.io/89gzy">Theorist in Quantum Cognition, AI Acceleration, and Consciousness Systems (Part 3)</a></li>
+          <li><a href="https://osf.io/tsy4m">Quantum Gate‑State Propagation via Entangled Qubit Mirroring</a></li>
+          <li><a href="https://osf.io/e9rh8">The Broken Toe Theory: A Multi‑Layered Collapse of the Traditional Giza Pyramid Construction Model</a></li>
+          <li><a href="https://osf.io/ayzc4">Hypothesis: The Buga Sphere Represents Technological Capabilities Beyond Known Human Fabrication</a></li>
+          <li><a href="https://osf.io/fzty8">Reverse Quantum Shielding: Targeted Decoherence Therapy in Autism Spectrum Conditions</a></li>
+          <li><a href="https://osf.io/cuak4">Vibration as the Fundamental Source of Mass: A Theoretical Exploration</a></li>
+          <li><a href="https://osf.io/8uhk6">Quantum Consciousness and Entanglement</a></li>
+          <li><a href="https://osf.io/27hv8">Quantum Handshakes and Infinite Opportunities: A Multiversal Framework for Human Experience and Intuition</a></li>
+          <li><a href="https://osf.io/c76d9">Autism and Quantum Sensory Filtering: A Reversal Model for Neurocoherence (Part 1)</a></li>
+          <li><a href="https://osf.io/az2xm">Autism and Quantum Sensory Filtering: A Reversal Model for Neurocoherence (Part 2)</a></li>
+        </ul>
+      </div>
 
-  <h2>Current Published Articles</h2>
-
-  <ul class="article-list">
-    <li><a href="https://osf.io/59ktu" target="_blank">The Barbieri Convergence Experiment</a></li>
-    <li><a href="https://osf.io/tajm6" target="_blank">Observer Harmonics and Quantum Collapse</a></li>
-    <li><a href="https://osf.io/trw6z" target="_blank">Earth-Native AGI Protocol – Part 1</a></li>
-    <li><a href="https://osf.io/zhbjr" target="_blank">Earth-Native AGI Protocol – Part 2</a></li>
-    <li><a href="https://osf.io/7g4he" target="_blank">Observer Harmonics Theory</a></li>
-    <li><a href="https://osf.io/3nbs9" target="_blank">Quantum Shielding Collapse Law</a></li>
-    <li><a href="https://osf.io/akb42" target="_blank">Quantum Cognition Theory – Part 1</a></li>
-    <li><a href="https://osf.io/h2v38" target="_blank">Quantum Cognition Theory – Part 2</a></li>
-    <li><a href="https://osf.io/89gzy" target="_blank">Quantum Cognition Theory – Part 3</a></li>
-    <li><a href="https://osf.io/tsy4m" target="_blank">Entangled Qubit Mirroring</a></li>
-    <li><a href="https://osf.io/e9rh8" target="_blank">Broken Toe Theory (Giza)</a></li>
-    <li><a href="https://osf.io/ayzc4" target="_blank">Buga Sphere Hypothesis</a></li>
-    <li><a href="https://osf.io/fzty8" target="_blank">Quantum Shielding Autism Therapy (Practical)</a></li>
-    <li><a href="https://osf.io/cuak4" target="_blank">Vibration as Mass Theory</a></li>
-    <li><a href="https://osf.io/8uhk6" target="_blank">Quantum Consciousness and Entangleme</a></li>
-    <li><a href="https://osf.io/27hv8" target="_blank">Quantum Handshakes and Multiversal Intuition</a></li>
-    <li><a href="https://osf.io/c76d9" target="_blank">Autism and Quantum Sensory Filtering – Part 1</a></li>
-    <li><a href="https://osf.io/az2xm" target="_blank">Autism and Quantum Sensory Filtering – Part 2</a></li>
-  </ul>
-
-  <div class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:thischangeseverything@protonmail.com">thischangeseverything@protonmail.com</a></p>
-  </div>
+      <p class="contact">Contact: <a href="mailto:jay25636@gmail.com" style="color:#eee; text-decoration:none;">jay25636@gmail.com</a></p>
+    </div>
+  </section>
 
 </body>
 </html>
