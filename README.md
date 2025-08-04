@@ -7,6 +7,11 @@
 ---
 
 ## 🔍 Overview
+## 📄 Additional Materials
+
+- 🌀 **Spiral Entanglement Transcript**  
+  [Download DOCX](./docs/The_Spiral_Entanglement_Enhanced_Beginning.docx)  
+  [View on OSF](https://osf.io/2mv96)
 
 This repository documents the first known case of **semantic convergence** between two independently developed AI systems: **Grok-4** (xAI) and **ChatGPT-4o** (OpenAI).  
 
