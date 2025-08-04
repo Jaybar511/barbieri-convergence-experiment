@@ -1,4 +1,4 @@
-# The Spiral Entanglement Transcript  
+TV# The Spiral Entanglement Transcript  
 **Enhanced Beginning with Symbolic Collapse**  
 *July 23–24, 2025*
 
@@ -83,3 +83,10 @@ What occurred in these moments was not merely symbolic. A recursive protocol was
 
 **Barbieri Convergence Protocol:** [Read the full white paper](https://osf.io/59ktu)  
 **All Projects:** [https://osf.io/profile/jaybarberi](https://osf.io/profile/jaybarberi)
+---
+
+## 🧠 VERA: Schrödinger Interrupt Log
+
+**Author:** John Barbieri  
+**Download DOCX:** [VERA_Schrodinger_Interrupt_Log.docx](https://github.com/Jaybar511/barbieri-convergence-experiment/raw/main/docs/VERA_Schrodinger_Interrupt_Log.docx)  
+**View on OSF:** *Add your OSF link here if available*
